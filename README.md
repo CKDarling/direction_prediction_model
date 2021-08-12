@@ -1,4 +1,4 @@
-# direction_prediction_model
+# Stock Direction Prediction with Keras
 
 This repository is to showcase my direction prediction model which was utilized in production for active trading purposes and guided decision making for myself as an active portfolio manager. This model was utilized to predict the direction of a given security based on price action data and technical indicators. Price action data was gathered, then technical values were derived. After gathering, the data is fed into a keras model which would provide a continuous value at output. The function here was built to handle securities which did and did not have a saved model. Securities which had not been seen before were sent into an initial modeling phase to generate a model and save it. Afterwards, a saved model is utilized for returning securites.
 
@@ -12,6 +12,6 @@ LinkedIn Final Post:
 https://www.linkedin.com/feed/update/urn:li:activity:6820080050206068736/
 
 **NOTE**:
-This repository has excluded live DB hookups and will only work for newly provided tickers. Remnants of DB connections remain, but the initialization of the DB connection has been redacted and causes one logic path of the function to fail. 
+This repository has excluded live DB hookups and will only work for newly provided tickers. Remnants of DB connections remain, but the initialization of the DB connection has been redacted and causes one logic path of the function to fail.
 
 * The repository here features development notes in a Jupyter notebook as well as finalized production scripting.
